@@ -1,0 +1,614 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kotta One", serif;
+  font-weight: 500;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+/* heros_code */
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.heros {
+  background-image: url(cake2.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  max-width: 1920px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.social__links {
+  height: 50px;
+  display: flex;
+  background: transparent;
+  justify-content: space-around;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social__links a:hover {
+  background-color: #fff;
+  color: #7e000a;
+}
+
+.links__p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links__p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links__p1 i {
+  margin: 5px;
+}
+
+.links__p2 i {
+  margin: 5px;
+}
+
+.links2 {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.links3 {
+  margin-left: 15px;
+}
+
+.links5 {
+  margin-left: 15px;
+}
+
+.links6 {
+  margin-left: 15px;
+}
+
+/* navbar */
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  /* width: 1920px; */
+  text-transform: uppercase;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: 700;
+}
+
+.navbar a:hover {
+  background-color: #fff;
+  color: #7e000a;
+  padding: 10px;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1.5;
+}
+
+.nav3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  cursor: pointer;
+}
+
+.nav4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1.5;
+}
+
+/* card__section code */
+
+.card__section1 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.card__content1 {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+.card__heading1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  flex: 1;
+}
+
+.card1__child1,
+.card1__child2,
+.card2__child1,
+.card2__child2,
+.card3__child1,
+.card3__child2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  aspect-ratio: 16 / 9;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.card1__child1 {
+  background-image: url(cake.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card1__child2 {
+  background-image: url(choco.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card2__child1 {
+  background-image: url(pastry.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card2__child2 {
+  background-image: url(cupcakes.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card3__child1 {
+  background-image: url(cookies.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card3__child2 {
+  background-image: url(puff.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.card__section2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.card__content2 {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.card__heading2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.c1 {
+  background-image: url(loafs.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.c2 {
+  background-image: url(scones.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.c3 {
+  background-image: url(muffin.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.c4 {
+  background-image: url(candies.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.c5 {
+  background-image: url(donut.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.c6 {
+  background-image: url(baguette.jpg);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card__section3 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.card__content3 {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.card__heading3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.about {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  background-image: url(cake.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.text__about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.7rem;
+  padding: 25px;
+  text-align: center;
+}
+
+.card__section4 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.texts i {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(51, 51, 51);
+}
+
+.card__heading4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+}
+
+.text__testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.7rem;
+  padding: 25px;
+  padding-top: 0;
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
+
+.about__testimonial {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16/ 6;
+  background-image: url(back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-attachment: fixed;
+}
+
+.bg__clr {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 16/ 6;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  background-attachment: fixed;
+}
+
+.card__section5 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
+
+.card__content5 {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.card__content5 h3 {
+  font-weight: 550;
+  font-size: 25px;
+  color: black;
+}
+
+.card__heading5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  padding-bottom: 50px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card01,
+.card02,
+.card03 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.sec__5__text1,
+.sec__5__text2,
+.sec__5__text3,
+.sec__5__text4,
+.sec__5__text5,
+.sec__5__text6 {
+  color: rgb(51, 51, 51);
+}
+
+.card__section6 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 60px 30px;
+}
+
+.card__content6 {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.name,
+.email,
+.mobile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  flex: 1;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: 2px solid #a5a4a4;
+  font-size: 15px;
+}
+
+button {
+  width: 10%;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #9c4252;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: 550;
+  cursor: pointer;
+  /* box-shadow: 0 0 5px #df6e81, 0 0 10px #df6e81; */
+}
+
+button:hover {
+  background-color: #df6e81;
+  color: #4e141f;
+  box-shadow: 0 0 5px #9b4d5b, 0 0 10px #914755;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  flex: 1;
+}
+
+.card__section__foot {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px;
+
+  border-radius: 20px;
+  background-color: black;
+}
+
+.card__content__foot {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.useful__links,
+.contact,
+.connect,
+.payments {
+  row-gap: 20px;
+  flex: 1;
+  /* border: 1px solid black; */
+  aspect-ratio: 4/3;
+  padding: 0 40px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.useful__links h2,
+.contact h2,
+.connect h2,
+.payments h2 {
+  padding: 10px;
+  color: #f3a9b5;
+}
+
+.useful__links a {
+  display: block;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.contact a {
+  display: block;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.connect a,
+.payments a {
+  padding: 5px 10px;
+  font-size: 27px;
+}
+
+.payments a {
+  font-size: 37px;
+}
+
+.card__content__foot a:hover {
+  color: #bd2c46;
+}
+
+.payments a:hover {
+  color: #324c66;
+}
+
+.fa-facebook {
+  color: #4867aa;
+}
+
+.fa-square-instagram {
+  color: #c235a7;
+}
+
+.fa-telegram {
+  color: #27a5e5;
+}
+
+.fa-youtube {
+  color: #ff0f1c;
+}
+
+/* copyright__section */
+.copyright__section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
